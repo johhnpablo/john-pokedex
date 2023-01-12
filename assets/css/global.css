@@ -1,0 +1,30 @@
+*{
+  font-family: 'JetBrains Mono', monospace;
+  box-sizing: border-box;
+}
+h1{
+  color:#6c79db;
+}
+body{
+  background-color:#161515 ;
+}
+.content{
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #201f1f;
+  color: #161515;
+ 
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
+
+
+
